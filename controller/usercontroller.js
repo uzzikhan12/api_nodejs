@@ -58,7 +58,7 @@ const UserController = {
                     data: null,
                     message: "User already exists with this email",
                 })
-                return;  // Stop the function if user already exists
+                return;
             }
 
             let UserObj = new UserModel(obj)
